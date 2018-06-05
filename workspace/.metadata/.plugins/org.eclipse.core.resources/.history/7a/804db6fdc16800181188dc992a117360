@@ -1,0 +1,9 @@
+package com.example.demo.repository;
+
+import java.util.List;
+
+public class CustomTableRepository extends CrudRepository<CustomTable2, Long> {
+
+    List<CustomTable2> findByKey1(String lastName);
+}
+

@@ -1,0 +1,13 @@
+package com.example.demo.repository;
+
+import java.util.List;
+
+import com.example.demo.entity.CustomTable2;
+import com.example.demo.entity.CustomTable2PK;
+
+
+public class CustomTableRepository extends CrudRepository<CustomTable2, CustomTable2PK> {
+
+    List<CustomTable2> findByKey1(String key1);
+}
+
